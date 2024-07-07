@@ -1,6 +1,6 @@
 import ReactDOM from 'react-dom';
 import Pet from './Pet'
-
+//sick
 const App = () => {
   return (
     <div>
