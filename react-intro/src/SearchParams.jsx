@@ -1,5 +1,5 @@
 import { useState } from "react";
-
+// useState hooks for saving data between renders
 const SearchParams = () => {
   const [location, setLocation] = useState("");
   return (
