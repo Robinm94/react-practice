@@ -1,6 +1,5 @@
 import { useState } from "react";
 // useState hooks for saving data between react component render
-//pacific drive busy
 const SearchParams = () => {
   const [location, setLocation] = useState("");
   return (
