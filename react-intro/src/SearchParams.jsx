@@ -1,5 +1,5 @@
 import { useState } from "react";
-// useState hooks for saving data between react component render
+// useState hooks for saving data between react component render react
 const ANIMALS = ["bird", "cat", "dog", "reptile"];
 const SearchParams = () => {
   const [location, setLocation] = useState("");
