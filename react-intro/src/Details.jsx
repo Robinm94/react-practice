@@ -1,7 +1,7 @@
 import { useParams } from "react-router-dom";
 import { useQuery } from "@tanstack/react-query";
 import fetchPet from "./fetchPet";
-//system fixing
+
 const Details = () => {
   const { id } = useParams();
   const results = useQuery(["details", id], fetchPet);
