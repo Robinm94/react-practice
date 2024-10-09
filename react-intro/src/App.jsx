@@ -5,7 +5,7 @@ import AdoptedPetContext from "./AdoptedPetContext";
 import ReactDOM from "react-dom/client";
 import SearchParams from "./SearchParams";
 import Details from "./Details";
-
+//main app
 const queryClient = new QueryClient({
   defaultOptions: {
     queries: {
